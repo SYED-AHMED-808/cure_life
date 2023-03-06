@@ -1,1 +1,1 @@
-console.log("hey cure life");
+console.log("welcome to js file");
