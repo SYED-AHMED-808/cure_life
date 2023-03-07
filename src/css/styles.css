@@ -24,6 +24,11 @@ header div {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: black;
+}
+header div a {
+  text-decoration: none;
+  color: black;
 }
 
 div i {
