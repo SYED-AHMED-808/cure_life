@@ -1,27 +1,27 @@
-*{
-margin:50px 0;
+:root {
+  --main-color: #00ffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
 }
 
-.home{
+#menu-bar {
+  display: flex;
+  justify-content: space-between;
+}
+header div {
+  margin: 0 10px;
+  display: flex;
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-    width: 40%;
-    padding-right: 60%;
-   
-    min-height: 500px;
-   
-    background-color: lightblue;
-   
-    text-align: right;
-   
-    border-color: 20px solid black;
-   
-   }
-   
-   .home button i{
-    width: 34px;
-   }
-
-   .home button{
-    padding:5px 5px;
-    margin:10px 10px;
-   }
+div i {
+  font-size: 4.2rem;
+  color: var(--main-color);
+}
