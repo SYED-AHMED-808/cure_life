@@ -1,11 +1,27 @@
 *{
-margin:0;
+margin:50px 0;
 }
 
-#homepage{
- width: 100%;
- min-height: 500px;
- background-color: blue;
- align-items: center;
- border-color: 20px solid black;
-}
+.home{
+
+    width: 40%;
+    padding-right: 60%;
+   
+    min-height: 500px;
+   
+    background-color: lightblue;
+   
+    text-align: right;
+   
+    border-color: 20px solid black;
+   
+   }
+   
+   .home button i{
+    width: 34px;
+   }
+
+   .home button{
+    padding:5px 5px;
+    margin:10px 10px;
+   }
