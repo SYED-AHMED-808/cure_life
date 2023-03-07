@@ -1,5 +1,9 @@
 :root {
   --main-color: #00ffff;
+  --secondry: #16a3df;
+}
+body {
+  background-color: var(--secondry);
 }
 * {
   margin: 0;
@@ -19,6 +23,7 @@ header div {
   padding: 5px;
   font-size: 2rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 div i {
