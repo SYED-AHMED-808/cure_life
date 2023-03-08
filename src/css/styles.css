@@ -1,13 +1,10 @@
-:root {
-  --main-color: #00ffff;
-  --secondry: #16a3df;
-}
-body {
-  background-color: var(--secondry);
-}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--secondry);
 }
 html {
   font-size: 16px;
@@ -34,4 +31,21 @@ header div a {
 div i {
   font-size: 4.2rem;
   color: var(--main-color);
+}
+.ham-menu-box {
+  height: 60vh;
+  width: 25vw;
+  background-color: var(--bg-color);
+  position: absolute;
+  top: 0;
+  left: -11px;
+}
+#cross {
+  font-size: 3.5rem;
+}
+.ham-menu-navbar ul {
+  list-style: none;
+}
+.ham-menu-navbar ul li a {
+  color: var(--text);
 }

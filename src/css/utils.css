@@ -1,0 +1,38 @@
+:root {
+  --main-color: #00ffff;
+  --secondry: #16a3df;
+  --text: #0440cd;
+  --bg-color: #677bb5;
+}
+.fl {
+  display: flex;
+}
+.fl-d-r {
+  flex-direction: row;
+}
+.fl-d-c {
+  flex-direction: column;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-sa {
+  justify-content: space-around;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-st {
+  align-items: flex-start;
+}
+.btn-main {
+  background-color: var(--main-color);
+}
+.btn-main:hover {
+  background-color: var(--secondry);
+  color: black;
+  font-weight: bold;
+}
