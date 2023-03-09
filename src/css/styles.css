@@ -62,6 +62,32 @@ div i {
   color: var(--text);
   cursor: pointer;
 }
+.registerbox {
+  position: absolute;
+  top: 5rem;
+  right: 7rem;
+
+  display: none;
+
+  /* border: 2px solid black; */
+}
+
+.registername {
+  width: 20vw;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  height: 10vh;
+  background-color: aqua;
+  border: 2px solid black;
+  border-top: none;
+}
+.registername:hover {
+  background-color: violet;
+  color: aqua;
+  cursor: pointer;
+}
 #main-container {
   height: 100vh;
   width: 100vw;
