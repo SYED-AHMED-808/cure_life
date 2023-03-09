@@ -18,17 +18,21 @@
     ></script>
   </head>
   <body>
+    <!-- header starts here  -->
     <header id="menu-bar">
       <div>
         <div class="ham-menu">
-          <i id="ham-bar" class="fa-solid fa-bars"></i>
+          <img
+            id="ham-bar"
+            src="./src/logo and icons/home.png"
+            alt="home button"
+          />
         </div>
         <div
           id="ham-menu-box"
           class="ham-menu-box d-flex flex-column justify-content-between align-items-center"
         >
-          <div class="d-flex flex-row-reverse justify-content-between">
-            <div id="cross"><i class="fa-solid fa-x"></i></div>
+          <div class="d-flex flex-row">
             <nav class="ham-menu-navbar">
               <ul class="d-flex flex-column">
                 <li class="my-1"><a href="\">HOME</a></li>
@@ -36,13 +40,20 @@
                 <li class="my-1"><a href="\">About Us</a></li>
               </ul>
             </nav>
+            <div>
+              <img
+                id="cross"
+                src="./src/logo and icons/cross.png"
+                alt="cross logo"
+              />
+            </div>
           </div>
           <div class="d-flex flex-column">
             <button class="btn btn-lg btn-main my-1">
-              <a href="\"></a>HIRING
+              <a href="\">HIRING</a>
             </button>
             <button class="btn btn-lg btn-main my-1">
-              <a href="\"></a>ADMIN LOGIN
+              <a href="\">ADMIN LOGIN</a>
             </button>
           </div>
         </div>
@@ -53,7 +64,7 @@
         <div>Signin</div>
       </div>
     </header>
-    <div class="container-fluid"></div>
+    <div id="main-container" class="container-fluid"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

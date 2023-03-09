@@ -5,6 +5,7 @@
 }
 body {
   background-color: var(--secondry);
+  overflow: clip;
 }
 html {
   font-size: 16px;
@@ -27,25 +28,42 @@ header div a {
   text-decoration: none;
   color: black;
 }
-
+.moveout {
+  transition: transform 0.3s ease-in;
+  transform: translate(450px, 0px);
+}
+#ham-bar {
+  width: 3rem;
+  cursor: pointer;
+}
 div i {
   font-size: 4.2rem;
   color: var(--main-color);
 }
 .ham-menu-box {
-  height: 60vh;
+  height: 100vh;
   width: 25vw;
   background-color: var(--bg-color);
   position: absolute;
-  top: 0;
-  left: -11px;
+  top: -4px;
+  left: -500px;
+  transition: transform 0.3s ease-in;
 }
 #cross {
-  font-size: 3.5rem;
+  height: 2.8rem;
+  right: 1rem;
+  position: absolute;
+  cursor: pointer;
 }
 .ham-menu-navbar ul {
   list-style: none;
 }
 .ham-menu-navbar ul li a {
   color: var(--text);
+  cursor: pointer;
+}
+#main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
 }
